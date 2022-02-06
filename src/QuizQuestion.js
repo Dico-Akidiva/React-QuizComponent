@@ -15,7 +15,7 @@ class QuizQuestion extends Component {
   }
   constructor(quiz_question) {
     super(quiz_question) {
-      
+
     }
   }
 }
