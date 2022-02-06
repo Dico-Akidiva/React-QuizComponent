@@ -13,3 +13,5 @@ class Quiz extends Component {
     )
   }
 }
+
+export default Quiz
