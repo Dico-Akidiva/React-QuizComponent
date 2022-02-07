@@ -1,11 +1,11 @@
-import React, {Component} from react
+import React, {Component} from 'react'
 
 class QuizQuestion extends Component {
   render () {
     return (
       <main>
      <section>
-       <p>// instruction text goes here</p>
+       <p> // instruction text goes here</p>
      </section>
      <section className="buttons">
        <ul>
@@ -15,10 +15,8 @@ class QuizQuestion extends Component {
    </main>
  )
   }
-  constructor(quiz_question) {
-    super(quiz_question) {
-
-    }
+  constructor(props) {
+    super(props)
   }
 }
 
