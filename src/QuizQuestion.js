@@ -7,6 +7,9 @@ class QuizQuestion extends Component {
       return this.props.showNextQuestionHandler()
     }
   }
+  constructor(props) {
+    super(props)
+  }
   render () {
     return (
       <main>
